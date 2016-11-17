@@ -35,6 +35,14 @@ gem 'react_on_rails', '~>6'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'capybara'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'capybara-screenshot'
+  gem 'poltergeist'
+  gem 'launchy'
+  gem 'simplecov'
+  gem 'database_cleaner'
 end
 
 group :development do
